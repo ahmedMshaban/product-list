@@ -74,12 +74,14 @@ button:active {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   width: 50rem;
   max-width: 90%;
+  text-align: center;
 }
 
 .product-item img {
-  width: 100%;
   height: 20rem;
   object-fit: cover;
+  max-width: 100%;
+  width: auto;
 }
 
 .product-item__content {
